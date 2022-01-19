@@ -1,7 +1,7 @@
 
 
 
-
+#' @export
 rand_pokemon <- function(n) {
     pokemon_names <- readRDS(here::here("Data", "pokemon_en.rds"))
     stopifnot("n must be positive number" = n >= 1)
